@@ -1,0 +1,15 @@
+{application, 'supervisor2',
+ [{description, "supervisor2 from rabbitmq-server"},
+  {vsn, "1"},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {contributors, []},
+  {licenses, []},
+  {links, []}
+ ]}.
